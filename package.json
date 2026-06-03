@@ -1,0 +1,14 @@
+{
+  "name": "claude-slack-bot",
+  "version": "1.0.0",
+  "description": "Claude PM Assistant — Nripendu's personal AI PM bot for Slack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@slack/bolt": "^3.17.0",
+    "dotenv": "^16.4.5"
+  }
+}
